@@ -1,3 +1,16 @@
-h1 {
-    color: red;
+.flexboxfila{
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.flexboxcolumna{
+
+    display: flex;
+
+    flex-direction: column;
+
 }
