@@ -1,20 +1,32 @@
-
+*{
+    font-family: sans-serif;
+}
 .contenedor{
     display: flex;
     flex-direction: column;
+    margin: 25px;
 }
 .seccion {
     font-weight: 600;
+    margin-bottom: 0px;
 }
 .seccion-descripcion{
     color:#a7a7a7;
+    margin-top: 0px;
 }
 hr{
     width: 100%;
     border-top: 2px solid #ececec;
 }
 .fondo{
-    background-color: aqua;
+    width: 100%;
+    height: 250px;
+}
+
+.fondo > img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
 }
 
 .flexboxfila{
@@ -34,4 +46,23 @@ hr{
 
     align-items: center ;
 
+}
+.fondo button{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 170px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 14px;
+    width: 140px;
+    height: 35px;
+    border: 0px;
+    background-color: yellow;
+}
+.fondo h1{
+    color: white;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 35px;
 }
