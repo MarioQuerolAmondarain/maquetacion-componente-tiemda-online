@@ -1,3 +1,17 @@
-h1 {
-    color: red;
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.seccion {
+    font-weight: 600;
+}
+.seccion-descripcion{
+    color:#a7a7a7;
+}
+hr{
+    width: 100%;
+    border-top: 2px solid #ececec;
+}
+.fondo{
+    background-color: aqua;
 }
