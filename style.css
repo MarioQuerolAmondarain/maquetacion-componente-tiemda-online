@@ -1,4 +1,17 @@
+<<<<<<< Updated upstream
 
+=======
+*{
+    font-family: sans-serif;
+}
+
+body{
+
+    background-color: rgba(108, 105, 110, 0.164);
+
+
+}
+>>>>>>> Stashed changes
 .contenedor{
     display: flex;
     flex-direction: column;
